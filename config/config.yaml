@@ -1,0 +1,4 @@
+addr: ":8081"
+
+dsn: "host=192.168.25.130 user=postgres password=123456 dbname=crudapi port=5432 sslmode=disable TimeZone=Asia/Shanghai"
+max_idle_conn: 100

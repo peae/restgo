@@ -3,7 +3,11 @@
 
 ### 启动项目
 
+在当前项目中打开终端
+
 ```powershell
+go env -w GO111MODULE=on
+go env -w GOPROXY=https://goproxy.cn,direct
 go mod tidy
 go mod download
 go mod vendor

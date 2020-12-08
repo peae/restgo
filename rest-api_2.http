@@ -2,8 +2,8 @@ PATCH http://localhost:8081/api/v1/user
 Content-Type: application/json
 
 {
-  "id": "1",
-  "name": "23333"
+  "id": "7",
+  "name": "testtest"
 }
 
 ###修改
@@ -15,8 +15,8 @@ POST http://localhost:8081/api/v1/user
 Content-Type: application/json
 
 {
-  "id": "6",
-  "name": "lx"
+  "id": "7",
+  "name": "test"
 }
 
 ###添加
@@ -38,7 +38,7 @@ Accept: application/json
 
 ###查询所有
 
-DELETE  http://localhost:8081/api/v1/user/4
+DELETE  http://localhost:8081/api/v1/user/7
 Accept: application/json
 
 

@@ -42,7 +42,7 @@ func (u *CrudUser) DeleteUserById(c *gin.Context) {
 		return
 	}
 
-	u.JsonSuccess(c, http.StatusCreated, gin.H{"data": user})
+	u.JsonSuccess(c, http.StatusCreated, gin.H{"data": "删除成功"})
 }
 
 func (u *CrudUser) AddUser(c *gin.Context)  {

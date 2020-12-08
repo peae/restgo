@@ -1,0 +1,45 @@
+PATCH http://localhost:8081/api/v1/user
+Content-Type: application/json
+
+{
+  "id": "1",
+  "name": "23333"
+}
+
+###修改
+
+
+
+
+POST http://localhost:8081/api/v1/user
+Content-Type: application/json
+
+{
+  "id": "6",
+  "name": "lx"
+}
+
+###添加
+
+
+
+
+GET http://localhost:8081/api/v1/user/1
+Accept: application/json
+
+
+###根据id查询
+
+
+
+GET http://localhost:8081/api/v1/users
+Accept: application/json
+
+
+###查询所有
+
+DELETE  http://localhost:8081/api/v1/user/4
+Accept: application/json
+
+
+###删除
